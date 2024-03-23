@@ -1,7 +1,6 @@
 # LP6DPBO2024C1
 
-Saya Muhamad Sabil Fausta NIM 2210142 mengerjakan Latihan 6 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek
-untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
+Saya Muhamad Sabil Fausta NIM 2210142 mengerjakan Tugas Praktikum 2 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 # Desain Program
 
@@ -19,18 +18,23 @@ semester: Atribut ini menyimpan nilai semester saat ini dari mahasiswa. Ini adal
 
 mataKuliah: Atribut ini merupakan daftar mata kuliah yang diambil oleh mahasiswa tersebut. Ini adalah List<String> yang berisi nama-nama mata kuliah yang sedang atau telah diikuti oleh mahasiswa, merefleksikan beban studi dan area keilmuan yang dipelajari.
 
+# Integrasi dengan Database
+Program ini menggunakan konektor database untuk memungkinkan interaksi dengan basis data. Konektor database bertindak sebagai jembatan antara aplikasi Java dan database, memfasilitasi eksekusi query SQL dari kode Java. Dalam konteks program ini, konektor database digunakan untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada data mahasiswa yang disimpan dalam database.
+
 # Alur Program dan Screenshoot
 
 ![image](https://github.com/sabilfaustaa/LP5DPBO2024C1/assets/61264687/25bf1866-9b87-4069-90a0-5916a0556745)
 
 ## Menambahkan Data Mahasiswa Baru
+
 1. Isi field NIM dengan Nomor Induk Mahasiswa yang unik.
-2. Isi field Nama dengan nama lengkap mahasiswa.
-3. Pilih Jenis Kelamin dari dropdown menu.
-4. Pilih Tahun Masuk dari dropdown menu yang menunjukkan tahun mahasiswa tersebut mulai masuk universitas.
-5. Pilih Semester saat ini dari dropdown menu.
-6. Pilih Mata Kuliah yang diambil dengan menekan dan memilih mata kuliah di daftar. Untuk memilih lebih dari satu mata kuliah, gunakan klik sambil menahan tombol Ctrl (Cmd di Mac) untuk pilihan individual atau Shift untuk rentang pilihan.
-7. Klik tombol Add untuk menambahkan data mahasiswa ke dalam daftar.
+4. Program sekarang memvalidasi input untuk memastikan tidak ada field yang kosong sebelum insert. Jika ada field yang kosong, akan ditampilkan dialog error.
+3. Isi field Nama dengan nama lengkap mahasiswa.
+5. Pilih Jenis Kelamin dari dropdown menu.
+6. Pilih Tahun Masuk dari dropdown menu yang menunjukkan tahun mahasiswa tersebut mulai masuk universitas.
+7. Pilih Semester saat ini dari dropdown menu.
+8. Pilih Mata Kuliah yang diambil dengan menekan dan memilih mata kuliah di daftar. Untuk memilih lebih dari satu mata kuliah, gunakan klik sambil menahan tombol Ctrl (Cmd di Mac) untuk pilihan individual atau Shift untuk rentang pilihan.
+9. Klik tombol Add untuk menambahkan data mahasiswa ke dalam daftar.
 
 ## Mengedit Data Mahasiswa
 

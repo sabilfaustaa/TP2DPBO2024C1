@@ -65,17 +65,4 @@ public class Mahasiswa {
     public List<String> getMataKuliah() {
         return this.mataKuliah;
     }
-
-    public void tambahMataKuliah(String mataKuliah) {
-        if (this.mataKuliah == null) {
-            this.mataKuliah = new ArrayList<>();
-        }
-        this.mataKuliah.add(mataKuliah);
-    }
-
-    public void hapusMataKuliah(String mataKuliah) {
-        if (this.mataKuliah != null) {
-            this.mataKuliah.remove(mataKuliah);
-        }
-    }
 }
