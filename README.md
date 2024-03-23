@@ -1,4 +1,4 @@
-# LP6DPBO2024C1
+# TP2DPBO2024C1
 
 Saya Muhamad Sabil Fausta NIM 2210142 mengerjakan Tugas Praktikum 2 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
@@ -27,9 +27,13 @@ Program ini menggunakan konektor database untuk memungkinkan interaksi dengan ba
 
 ## Menambahkan Data Mahasiswa Baru
 
+![image](https://github.com/sabilfaustaa/TP2DPBO2024C1/assets/61264687/ac6076d6-90b7-4877-a439-0f725fcde63f)
+![image](https://github.com/sabilfaustaa/TP2DPBO2024C1/assets/61264687/567fa393-1673-4400-a18c-d5668f2daab3)
+
 1. Isi field NIM dengan Nomor Induk Mahasiswa yang unik.
-4. Program sekarang memvalidasi input untuk memastikan tidak ada field yang kosong sebelum insert. Jika ada field yang kosong, akan ditampilkan dialog error.
-3. Isi field Nama dengan nama lengkap mahasiswa.
+2. Program sekarang memvalidasi input untuk memastikan tidak ada field yang kosong sebelum insert. Jika ada field yang kosong, akan ditampilkan dialog error.
+3. Program akan memeriksa apakah NIM sudah ada dalam database. Jika NIM sudah ada, akan ditampilkan dialog error.
+4. Isi field Nama dengan nama lengkap mahasiswa.
 5. Pilih Jenis Kelamin dari dropdown menu.
 6. Pilih Tahun Masuk dari dropdown menu yang menunjukkan tahun mahasiswa tersebut mulai masuk universitas.
 7. Pilih Semester saat ini dari dropdown menu.
