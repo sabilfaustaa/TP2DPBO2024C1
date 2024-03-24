@@ -116,7 +116,7 @@ public class Menu extends JFrame{
         deleteButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (selectedIndex > 0) {
+                if (selectedIndex >= 0) {
                     deleteData();
                 }
             }
